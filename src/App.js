@@ -8,7 +8,7 @@ import data from './pages/productdata'
 import Details from './pages/Details';
 import { useState } from 'react';
 import Cart from './pages/Cart';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch} from 'react-redux';
 import { addItem } from './pages/store';
 
 
@@ -16,7 +16,7 @@ function App() {
 
   const navigate = useNavigate()
   const [bests] = useState(data)
-  const state = useSelector((state) => state)
+  // const state = useSelector((state) => state)
   const dispatch = useDispatch()
 
   return (
