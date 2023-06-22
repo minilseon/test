@@ -35,7 +35,7 @@ function App() {
       </Navbar>
 
       <Routes>
-        <Route path='/' element={
+        <Route path='/'  element={
 
         <Container>
           <img src={process.env.PUBLIC_URL + './images/visual_main_01.jpg'} alt="" />
@@ -61,8 +61,7 @@ function App() {
           </Row>
         </Container>
 
-        }>        
-        </Route>
+        } />
         <Route path='about' element={<About />}>
           <Route path='info' element={<div>Infomation</div>}/>
           <Route path='loca' element={<div>Location</div>}/>
