@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/minilseon/test/static/css/main.853cecf1.css",
+    "main.js": "/minilseon/test/static/js/main.cac022c9.js",
+    "static/js/453.a5a847af.chunk.js": "/minilseon/test/static/js/453.a5a847af.chunk.js",
+    "index.html": "/minilseon/test/index.html",
+    "main.853cecf1.css.map": "/minilseon/test/static/css/main.853cecf1.css.map",
+    "main.cac022c9.js.map": "/minilseon/test/static/js/main.cac022c9.js.map",
+    "453.a5a847af.chunk.js.map": "/minilseon/test/static/js/453.a5a847af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.853cecf1.css",
+    "static/js/main.cac022c9.js"
+  ]
+}
