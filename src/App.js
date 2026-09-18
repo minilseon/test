@@ -23,9 +23,9 @@ function App() {
 
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand onClick={()=>{navigate('/')}} >SHOP</Navbar.Brand>
+          <Navbar.Brand onClick={()=>{navigate('/test')}} >SHOP</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link onClick={()=>{navigate('/')}}>Home</Nav.Link>
+            <Nav.Link onClick={()=>{navigate('/test')}}>Home</Nav.Link>
             <Nav.Link onClick={()=>{navigate('/about')}}>About</Nav.Link>
             <Nav.Link onClick={()=>{navigate('/about/info')}}>Information</Nav.Link>
             <Nav.Link onClick={()=>{navigate('/about/loca')}}>Location</Nav.Link>
